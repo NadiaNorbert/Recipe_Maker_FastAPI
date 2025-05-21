@@ -13,8 +13,8 @@ agent = Agent(
 def retrieve(COLLECTION_NAME, question):
     # Connect to Qdrant
     qdrant_client = QdrantClient(
-        url="https://59004e01-863e-4d09-802b-24ddbcefe01b.eu-west-2-0.aws.cloud.qdrant.io:6333",
-        api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.kEwGurfbzPq0Na9D1shINCrnqTjd5Q2DpT3EiKBzWeA",
+        url="your_url",
+        api_key="your_apikey",
     )
 
     # Set hybrid search models
